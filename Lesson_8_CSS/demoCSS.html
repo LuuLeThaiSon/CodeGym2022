@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- sử dụng file .css để nhúng vào -->
+    <link rel="stylesheet" href="demoCSS.css">
+</head>
+<!-- khai báo CSS trong thẻ <style> -->
+<style>
+    /* khai báo id, id nên là duy nhất */
+    #nonecolor {
+        color: black;
+    }
+    /* khai báo class */
+    .black {
+        color: black;
+    }
+    p{
+        color: brown;
+        font-size: larger;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+<body>
+    <!-- khai báo CSS trực tiếp trong thẻ inline -->
+    <h1 style="color: blue; font-family: Arial, Helvetica, sans-serif;">Lưu Lê Thái Sơn</h1>
+    <h2>Lưu Lê Thái Sơn</h2>
+    <h2 id="nonecolor">Lưu Lê Thái Sơn</h2>
+    <p>Lưu Lê Thái Sơn</p>
+    <p class="black">Lưu Lê Thái Sơn class</p>
+    <!-- CSS ưu tiên khai báo trực tiếp trong thẻ inline -> <style> -> <link> -->
+</body>
+</html>

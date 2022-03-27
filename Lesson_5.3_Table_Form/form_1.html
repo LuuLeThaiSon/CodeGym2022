@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Market Research Survey</h2>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+    <hr>
+    <form action="">
+        <label for="age">What is your age range?</label><br>
+        <select name="age" id="">
+            <option value="">18-24</option>
+            <option value="">25-34</option>
+            <option value="">35-50</option>
+            <option value="">50+</option>
+        </select>
+    <br>
+        <label for="yearly">What is your yearly income range?</label>
+            <select name="" id="">
+                <option value=""></option>
+            </select> 
+        <br>
+        <br>
+        <label for="gender"><b>Gender Identity</b></label><br>
+        <input type="radio" name="gender"> <span>Male</span><br>
+        <input type="radio" name="gender"> <span>Female</span><br>
+        <input type="radio" name="gender"> <span>Nonbinary</span><br>
+        <input type="radio" name="gender"> <span>Other</span><br>
+        <!-- span để hiển thị cùng dòng -->
+        <!-- name: dùng khi chọn trong 1 cụm -->
+        <input type="text"><br>
+        <br>
+        <!-- tạo bảng để ô text ngang với other -->
+        <label for="products"><b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b></label><br>
+        <input type="checkbox" name="products" id=""> <span>products 1</span><br>
+        <input type="checkbox" name="products" id=""> <span>products 2</span><br>
+        <input type="checkbox" name="products" id=""> <span>products 3</span><br>
+
+        <label for="newproducts"><b>How often would you use our new product?</b></label><br>
+        <input type="radio" name="newproducts"><span>Daily</span><br>
+        <input type="radio" name="newproducts" id=""><span>Weekly</span><br>
+        <input type="radio" name="newproducts" id=""><span>Monthly</span><br>
+
+        <label for="pay"><b>What would you pay for the new product?</b></label><br>
+        $ <input type="text" size="10"> . <input type="text" size="3">
+        <br>
+        <br>
+
+        <label for="features"><b>What features would you like to see in the new product.</b></label>
+        <textarea name="features" id="" cols="60" rows="10"></textarea>
+
+        <table border="1">
+            <tr>
+                <td></td>
+                <td style="text-align: center;">Strongly Disagree</td>
+                <td style="text-align: center;">Strongly Disagree</td>
+                <td style="text-align: center;">Strongly Disagree</td>
+                <td style="text-align: center;">Strongly Disagree</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

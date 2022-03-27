@@ -1,0 +1,35 @@
+span {
+    background-color: red;
+    color: antiquewhite;
+}
+#block {
+    display: block;
+}
+#inline {
+    display: inline;
+}
+#none {
+    display: none;
+}
+#inline-block {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+}
+p {
+    background-color: aquamarine;
+}
+div.ex1 {
+    width: 300px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.ex2 {
+    float: left;
+}

@@ -1,0 +1,14 @@
+table {
+    background-color: bisque;
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+    /* xóa viền bằng collapse */
+}
+.odd {
+    background-color: white;
+    
+}
+.even {
+    background-color: black;
+}
