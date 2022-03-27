@@ -3,6 +3,7 @@ table {
     width: 500px;
     height: 500px;
     border-collapse: collapse;
+    /* xóa viền bằng collapse */
 }
 .odd {
     background-color: white;
