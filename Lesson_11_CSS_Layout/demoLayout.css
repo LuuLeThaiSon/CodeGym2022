@@ -1,4 +1,44 @@
 header {
+    height: 100px;
+}
+
+aside {
+    width: 30%;
+    height: 700px;
+    background-color: rgb(221, 51, 21);
+}
+
+article {
+    width: 70%;
+    height: 700px;
+    background-color: bisque;
+}
+
+aside, article {
+    float: left;
+}
+
+footer {
+    background-color: blue;
     height: 30px;
-    background-color: aqua;
+    clear: both;
+}
+
+.logo {
+    background-color: rgb(255, 247, 252);
+    margin-bottom: 10px;
+}
+
+.logo img {
+    height: 100px;
+    
+}
+
+nav {
+    text-align: center;
+    background-color: azure;
+}
+
+a {
+    margin-right: 8px;
 }
