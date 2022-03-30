@@ -1,11 +1,12 @@
 header {
-    height: 100px;
+    height: 160px;
 }
 
 aside {
     width: 30%;
     height: 700px;
-    background-color: rgb(221, 51, 21);
+    background-color: rgb(235, 230, 229);
+    overflow: scroll;
 }
 
 article {
@@ -30,15 +31,28 @@ footer {
 }
 
 .logo img {
-    height: 100px;
+    height: 100%;
+    width: 100px;
     
 }
 
 nav {
     text-align: center;
+    font-size: large;
     background-color: azure;
+    margin-bottom: 10px;
 }
 
 a {
-    margin-right: 8px;
+    margin-right: 10px;
+}
+
+section  img {
+    height: 350px;
+    width: 100%;
+}
+
+section p {
+    text-align: center;
+    font-size: larger;
 }
