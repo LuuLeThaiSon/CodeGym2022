@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    /* chọn tất cả những thẻ div là con cháu của class parent */
+    .parent div {
+        color: red;
+    }
+
+    /* chọn tất cả những thẻ div là con của class parent */
+    .parent > div {
+        color: blue;
+    }
+
+    /* chọn anh em kế cận với class parent_1 (không tính class parent_1) */
+    .parent_1 + div {
+        color: yellowgreen;
+    }
+
+    /* chọn anh chị em chung .parent_1 ~ div */
+
+    /* lớp giả: thay đổi khi di chuột vào */
+    .parent_1 :hover {
+        color: cornflowerblue;
+        font-size: larger;
+    }
+
+
+</style>
+
+<body>
+    
+    <div class="parent"> Ông
+
+        <div class="parent_1">con cả
+            <div> cháu cả</div>
+            <div> cháu 2 </div>
+        </div>
+
+        <div>con 2</div>
+
+        <div>Con út</div>
+
+    </div>
+
+</body>
+</html>
