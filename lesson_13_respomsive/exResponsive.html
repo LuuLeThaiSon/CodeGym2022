@@ -10,15 +10,31 @@
     * {
         box-sizing: border-box;
     }
+
     div {
-        width: 25%;
+        display: block;
+    }
+
+    div.responsive {
+        width: 24%;
         border: 1px solid ;
-        border-color: azure;
+        border-color: rgb(241, 241, 241);
         float: left;
+        margin-left: 10px;
+    }
+
+    div.responsive :hover {
+        border: 1px solid;
+        border-color: black;
     }
 
     img {
         width: 100%;
+    }
+
+    .comment {
+        text-align: center;
+        border: none;
     }
 
     @media screen and (max-width:700px) {
@@ -35,18 +51,47 @@
 </style>
 <body>
     <h1>Responsive Image Gallery</h1>
-    <div>
-        <img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg" alt="">
+
+    <div class="responsive">
+
+        <div class="picture">
+            <img src="https://demo.codegym.vn/web/15/gallery/img_fjords.jpg" alt="">
+            <div class="comment">Add a description of the image here</div>
+        </div>
+
     </div>
-    <div>
-        <img src="https://demo.codegym.vn/web/15/gallery/img_forest.jpg" alt="">
+
+    <div class="responsive">
+
+        <div>
+            <img src="https://demo.codegym.vn/web/15/gallery/img_forest.jpg" alt="">
+            <div class="comment">Add a description of the image here</div>
+        </div> 
+
     </div>
-    <div>
-        <img src="https://demo.codegym.vn/web/15/gallery/img_lights.jpg" alt="">
+
+    <div class="responsive">
+
+        <div>
+            <img src="https://demo.codegym.vn/web/15/gallery/img_lights.jpg" alt="">
+        
+            <div class="comment">Add a description of the image here</div>
+
+        </div>
+
     </div>
-    <div>
-        <img src="https://demo.codegym.vn/web/15/gallery/img_mountains.jpg" alt="">
+
+    <div class="responsive">
+
+        <div>
+            <img src="https://demo.codegym.vn/web/15/gallery/img_mountains.jpg" alt="">
+
+            <div class="comment">Add a description of the image here</div>
+        
+        </div>
+
     </div>
+
 
 </body>
 </html>
