@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    @media screen and (min-width: 768px) {
+        .col_1 {
+            width: 8.33%;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .col_2 {
+            width: 16.66%;
+            height: 100px;
+            background-color: blueviolet;
+        }
+
+        .col_3 {
+            width: 25%;
+            height: 100px;
+            background-color: brown;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .col_1 {
+            width: 16.66%;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .col_2 {
+            width: 25%;
+            height: 100px;
+            background-color: blueviolet;
+        }
+
+        .col_3 {
+            width: 50%;
+            height: 100px;
+            background-color: brown;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="col_1">col_1</div>
+
+    <div class="col_2">col_2</div>
+
+    <div class="col_3">col_3</div>
+
+</body>
+</html>
