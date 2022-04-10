@@ -1,8 +1,11 @@
-table, th, td {
+table {
     border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table td {
     border: solid 2px;
     border-color: rgb(194, 83, 28);
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .heading {
