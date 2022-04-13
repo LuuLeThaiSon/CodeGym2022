@@ -45,12 +45,19 @@ main {
 
 aside {
     flex: 30%;
-    background-color: blue;
+    background-color: #f1f1f1;
+    padding: 30px 10px;
+}
+
+#fakeimg {
+    background-color: #aaa;
+    height: 150px;
 }
 
 article {
     flex: 70%;
     background-color: chartreuse;
+    
 }
 
 footer {
