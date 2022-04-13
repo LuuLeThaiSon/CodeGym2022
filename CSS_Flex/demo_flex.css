@@ -6,14 +6,37 @@
 
 .note {
     background-color: #ffff00;
+    text-align: center;
+    padding: 20px;
 }
 
 header {
-    background-color: aqua;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+header div h1 {
+    margin-bottom: 10px;
 }
 
 nav {
-    background-color: blueviolet;
+    background-color:#333;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav ul li:hover {
+    background-color:grey ;
 }
 
 main {
@@ -33,4 +56,11 @@ article {
 footer {
     clear: both;
     background-color: rgb(245, 220, 226);
+}
+
+@media screen and (max-width:576px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
 }
